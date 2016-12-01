@@ -6,7 +6,7 @@
 
     <groupId>WebSite</groupId>
     <artifactId>WebSite-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <modules>
         <module>utils</module>
         <module>core</module>
@@ -51,11 +51,20 @@
         <selenium.version>2.42.2</selenium.version>
         <nosqlunit.version>0.8.0</nosqlunit.version>
         <jetty.version>8.1.16.v20140903</jetty.version>
+        <website.version>1.0.0</website.version>
     </properties>
 
     <!-- 元素的依赖声明不会引入实际的依赖，但能够约束dependencies的依赖使用 -->
     <dependencyManagement>
         <dependencies>
+        <!--website begin-->
+        <dependency>
+            <groupId>WebSite</groupId>
+            <artifactId>utils</artifactId>
+            <version>${website.version}</version>
+        </dependency>
+
+
         <!--spring begin -->
         <dependency>
             <groupId>cn.org.springframework</groupId>
