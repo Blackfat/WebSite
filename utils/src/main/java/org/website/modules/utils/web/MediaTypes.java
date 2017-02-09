@@ -1,4 +1,4 @@
-package org.website.modules.web;
+package org.website.modules.utils.web;
 
 /*
 *   带UTF-8 charset 定义的MediaType

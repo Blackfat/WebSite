@@ -1,4 +1,4 @@
-package org.website.modules.mapper;
+package org.website.modules.utils.mapper;
 
 import com.google.common.collect.Lists;
 import org.dozer.DozerBeanMapper;

@@ -7,7 +7,7 @@ import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.junit.Test;
-import org.website.modules.mapper.JaxbMapper;
+import org.website.modules.utils.mapper.JaxbMapper;
 
 import javax.xml.bind.annotation.*;
 import java.util.List;

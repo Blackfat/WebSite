@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.junit.Test;
-import org.website.modules.mapper.JsonMapper;
+import org.website.modules.utils.mapper.JsonMapper;
 
 import java.util.HashMap;
 import java.util.List;

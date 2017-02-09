@@ -1,4 +1,4 @@
-package org.website.modules.mapper;
+package org.website.modules.utils.mapper;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.Validate;
