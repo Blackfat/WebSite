@@ -1,4 +1,4 @@
-package org.website.modules.test.mapper;
+package org.website.modules.utils.mapper;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.google.common.collect.Lists;

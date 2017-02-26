@@ -1,4 +1,4 @@
-package org.website.modules.test.log;
+package org.website.modules.log;
 
 import static org.assertj.core.api.Assertions.*;
 import org.junit.Test;

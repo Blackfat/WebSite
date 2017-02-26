@@ -1,4 +1,4 @@
-package org.website.modules.test.utils;
+package org.website.modules.utils;
 
 
 import org.junit.Test;

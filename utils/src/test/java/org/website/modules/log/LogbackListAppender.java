@@ -1,4 +1,4 @@
-package org.website.modules.test.log;
+package org.website.modules.log;
 
 import ch.qos.logback.classic.Logger;
 import ch.qos.logback.classic.spi.ILoggingEvent;

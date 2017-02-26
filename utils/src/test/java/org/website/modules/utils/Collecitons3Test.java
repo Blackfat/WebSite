@@ -1,4 +1,4 @@
-package org.website.modules.test.utils;
+package org.website.modules.utils;
 
 import com.google.common.collect.Lists;
 import org.junit.Test;

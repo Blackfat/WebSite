@@ -1,10 +1,9 @@
-package org.website.modules.test.utils;
+package org.website.modules.utils;
 
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.website.modules.test.log.LogbackListAppender;
-import org.website.modules.utils.Threads;
+import org.website.modules.log.LogbackListAppender;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

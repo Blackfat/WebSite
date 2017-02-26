@@ -1,4 +1,4 @@
-package org.website.modules.test.mapper;
+package org.website.modules.utils.mapper;
 
 import com.google.common.collect.Lists;
 import org.apache.commons.lang3.builder.ToStringBuilder;
