@@ -132,6 +132,17 @@ public class MoreStringUtil {
     }
 
 
+    /**
+     * 如果结尾字符为c, 去除掉该字符.
+     */
+    public static String removeEnd(final String s, final char c) {
+        if (endWith(s, c)) {
+            return s.substring(0, s.length() - 1);
+        }
+        return s;
+    }
+
+
 
 
 
